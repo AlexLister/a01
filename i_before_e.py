@@ -41,4 +41,24 @@ def run_tests():
 
 # Edit this code
 def spell_check(word):
+    check = 0
+
+    word.lower()
+
+    if "i" in word and "e" in word and "c" in word:
+        if "c" > "e" and "e" > "i":
+            print ("Correct")
+
+        else:
+            print ("False")
+
+    elif "i" in word and "e" in word:
+        if "i" > "e":
+            print ("Correct")
+
+        else:
+            print ("False")
+        
+        
+        
 

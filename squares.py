@@ -34,4 +34,13 @@ def run_tests():
 
 # Edit this code
 def print_squares(a, b):
+    asq = a*a
+    bsq = b*b
+    for i in range (a*a, b*b,a*a):
+        print (i)
+
+        
+
+        
+        
 

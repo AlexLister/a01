@@ -36,4 +36,12 @@ def run_tests():
 
 # Edit this code
 def multi_sum(n):
+    add = 0
+
+    for i in range (1, n+1, 7):
+        add = i * n 
+
+    print (add)
+
+        
 

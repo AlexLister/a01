@@ -34,4 +34,19 @@ def run_tests():
 
 # Edit this code
 def move(roll):
+    tile = 11
+    plus1 = +1
+
+    
+    if roll == 3:
+        tile = tile + roll + 15 
+        print (tile)
+
+    elif roll == 6:
+        tile = tile + roll - 13
+        print (tile)
+
+    else:
+        tile = tile + roll
+        print (tile)
 
