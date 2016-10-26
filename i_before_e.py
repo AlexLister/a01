@@ -45,19 +45,17 @@ def spell_check(word):
 
     word.lower()
 
-    if "i" in word and "e" in word and "c" in word:
-        if "c" > "e" and "e" > "i":
-            print ("Correct")
+    if "cei" in word:
+        print ("Correct")
 
-        else:
-            print ("False")
+    elif "cie" in word:
+        print ("False")
 
-    elif "i" in word and "e" in word:
-        if "i" > "e":
-            print ("Correct")
-
-        else:
-            print ("False")
+    elif "ie" in word:
+        print ("Correct")
+        
+    elif "ei" in word:
+        print ("False")
         
         
         
